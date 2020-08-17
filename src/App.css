@@ -1,0 +1,101 @@
+
+.auth{
+  width: min-content;
+  height: min-content;
+  margin:  auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color:rgba(136,226,255,0.43) ;
+}
+
+.auth input{
+  margin-top: 1rem ;
+  text-align: center;
+
+}
+
+.auth button{
+  margin-top: 1rem ;
+  text-align: center;
+
+}
+.message-list{
+  width: 33%;
+  height: 500px;
+  display: flex;
+  padding: 2rem;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 5px auto;
+  overflow-y: auto;
+}
+li{
+  list-style-type: none;
+  padding: 5px;
+  width: 70%;
+
+}
+.chat{
+  display: flex;
+  margin: 5rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.buttons-wrapper{
+  margin: 5px auto;
+}
+.buttons-wrapper button{
+  margin: 5px;
+}
+img{
+  width:75%;
+  border-radius: 40px;
+}
+
+.currentUser{
+  margin-right: 5px;
+  margin-left:auto;
+}
+
+li:nth-child(even){
+  background:rgba(80, 79, 79, 0.25) ;
+}
+
+li:nth-child(odd){
+  background:rgba(136,226,255,0.25) ;
+}
+li span{
+  margin:5px auto 5px 5px
+}
+
+li p{
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background: white;
+}
+
+.otherUsers{
+  
+  margin-left: 5px;
+  margin-right:auto;
+  padding: 5px;
+
+  
+}
+
+.input-form{
+  width: min-content;
+  display: block;
+  height: min-content;
+  margin: auto;
+}
+
+.input-form input{
+  width: 30rem;
+}
