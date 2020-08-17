@@ -16,10 +16,6 @@ class MessageList extends Component {
     componentDidUpdate() {
         this.scrollToBottom()
     }
-    
-    componentWillUnmount(){
-
-    }
 
     scrollToBottom = () => {
         this.messagesEndRef.current.scrollIntoView({ behavior: 'smooth' })
